@@ -1,7 +1,7 @@
 {
   "name": "auto-farm",
-  "version": "0.0.1",
-  "description": "Auto Level Discord Account",
+  "version": "0.0.0",
+  "description": "To Level Up Discord Account",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "auto-farm"
   ],
-  "author": "devsmsm",
+  "author": "SmSm",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DEVSMSM/AutoFarm/issues"
