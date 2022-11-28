@@ -1,11 +1,11 @@
-# auto-farm
+# AutoFarm
 Its Simple Package To Level Up On Some Discord Bots & For Active Your Server
 
 <p>
     <a href="https://www.npmjs.com/package/auto-farm" target="_blank"><img src="https://nodei.co/npm/auto-farm.png?downloads=true&downloadRank=true&stars=true"></a>
   </p>
 <a href="https://www.npmjs.com/package/auto-farm" target="_blank"><img alt="npm" src="https://img.shields.io/npm/dt/auto-farm?logo=npm&style=flat-square"></a>
-<a href="https://github.com/devsmsm/autofarm/stargazers" target="_blank"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/devsmsm/autofarm?logo=github&logoColor=white&style=flat-square"></a>
+<a href="https://github.com/devsmsm/AutoFarm/stargazers" target="_blank"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/devsmsm/AutoFarm?logo=github&logoColor=white&style=flat-square"></a>
 
 
 **I Don't Take Any Responsibility For Blocked Discord Accounts That Used This module.**

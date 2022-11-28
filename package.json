@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DEVSMSM/autofarm.git"
+    "url": "git+https://github.com/DEVSMSM/AutoFarm.git"
   },
   "keywords": [
     "auto-farm"
@@ -16,7 +16,7 @@
   "author": "devsmsm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DEVSMSM/autofarm/issues"
+    "url": "https://github.com/DEVSMSM/AutoFarm/issues"
   },
-  "homepage": "https://github.com/DEVSMSM/autofarm#readme"
+  "homepage": "https://github.com/DEVSMSM/AutoFarm#readme"
 }
