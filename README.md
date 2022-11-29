@@ -62,6 +62,45 @@ OwO: true // If true Account Will Play
 client.login("") // Put Token Account
 ```
 
+
+# Want Leveling More Than Account
+
+**Before You Use Code Make Sure To Make ``tokens.txt`` File**
+**And Must Add Tokens On The File**
+```js
+const { Client } = require("discord.js-selfbot");
+const fs = require('fs')
+const data = fs.readFileSync('tokens.txt', 'UTF-8')
+const lines = data.split(/\r?\n/)
+const AutoFarm = require("auto-farm")
+
+lines.forEach((line) => {
+    Hosting(line);
+})
+
+function Hosting(token)
+{
+try{
+const client = new Client({})
+client.on("ready", async () =>
+  {
+console.log(`${client.user.tag} Ready!! `)
+  })
+
+AutoFarm({
+Client: client, // Type Client
+ChannelID: "", // ID Text Channel
+Time: 15 // Type Time With Second
+})
+
+
+client.login(token)
+  } catch (err) {
+ console.log(err)
+  }
+}
+```
+
 # Need help?
 
 Contact me in Discord: ``</SmSm>#8700``
