@@ -1,6 +1,6 @@
 {
   "name": "auto-farm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "To Level Up Discord Account",
   "main": "index.js",
   "scripts": {
