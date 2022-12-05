@@ -12,6 +12,7 @@ AutoFarm({
 Client: client, // Type Client
 ChannelID: "", // ID Text Channel
 Time: 15, // Type Time With Second
+Pass: "", // To Get Pass Contact With Owner Package
 OwO: false // This Option For OwO Put false Or true
 })
 

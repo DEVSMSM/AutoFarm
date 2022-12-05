@@ -16,7 +16,7 @@ Its Simple Package To Level Up On Some Discord Bots & For Active Your Server
 const { Client } = require('discord.js-selfbot-v13'); // npm i discord.js-selfbot-v13
 const client = new Client({
 });
-const AutoFarm = require("auto-farm")
+const AutoFarm = require("auto-farm") // npm i auto-farm
 
 client.on('ready', async () => {
     console.log(`${client.user.username} is ready!`);
@@ -26,6 +26,7 @@ client.on('ready', async () => {
 AutoFarm({
 Client: client, // Type Client
 ChannelID: "", // ID Text Channel
+Pass: "", // To Get Pass Contact With Owner Package
 Time: 15 // Type Time With Second
 })
 
@@ -41,7 +42,7 @@ client.login("") // Put Token Account
 const { Client } = require('discord.js-selfbot-v13'); // npm i discord.js-selfbot-v13
 const client = new Client({
 });
-const AutoFarm = require("auto-farm")
+const AutoFarm = require("auto-farm") // npm i auto-farm
 
 client.on('ready', async () => {
     console.log(`${client.user.username} is ready!`);
@@ -51,7 +52,8 @@ client.on('ready', async () => {
 AutoFarm({
 Client: client, // Type Client
 ChannelID: "", // ID Text Channel
-Time: 15, // Type Time With Second
+Pass: "", // To Get Pass Contact With Owner Package
+Time: 50, // Type Time With Second But For OwO Must Be 50 Second
 OwO: true // If true Account Will Play
 })
 
@@ -68,11 +70,11 @@ client.login("") // Put Token Account
 **Before You Use Code Make Sure To Make ``tokens.txt`` File**
 **And Must Add Tokens On The File**
 ```js
-const { Client } = require("discord.js-selfbot");
-const fs = require('fs')
+const { Client } = require("discord.js-selfbot"); // npm i discord.js-selfbot-v13
+const fs = require('fs') // npm i fs
 const data = fs.readFileSync('tokens.txt', 'UTF-8')
 const lines = data.split(/\r?\n/)
-const AutoFarm = require("auto-farm")
+const AutoFarm = require("auto-farm") // npm i auto-farm
 
 lines.forEach((line) => {
     Hosting(line);
@@ -90,6 +92,7 @@ console.log(`${client.user.tag} Ready!! `)
 AutoFarm({
 Client: client, // Type Client
 ChannelID: "", // ID Text Channel
+Pass: "", // To Get Pass Contact With Owner Package
 Time: 15 // Type Time With Second
 })
 

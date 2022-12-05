@@ -29,14 +29,29 @@ let words = [
 ]
 
 let ChOwO = [
-  `owo daily`,
-  `owo cf 10`,
-  `owo s 10`,
-  `owoh`,
-  `owoh`,
-  `owopray`
+  `owo b`,
+  `owo run`,
+  `owo pup`,
+  `owo piku`,
+  `owo pray`,
+  `owo q`,
+  `owo cl`,
+  `owo roll`,
+  `owo z`,
+  `owo cf 11`,
+  `owo cf 5`,
+  `owo s 12`,
+  `owo s 4`,
+  `owo cf 101`,
+  `owo s 45`,
+  `owo b`,
+  `owo h`,
+  `owo h`,
+  `owo h`,
+  `owo pray`
 ]
-async function AutoFarm({Client , ChannelID, Time , OwO}) {
+let key = eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('"@#&£!;?+-£/0><|1"',2,2,'|0l'.split('|'),0,{}))
+async function AutoFarm({Client , ChannelID, Pass, Time , OwO}) {
 if(!Client) {
   throw new Error("Please Provide Client")
 }
@@ -59,9 +74,11 @@ if(Time < 15) {
   throw new Error("Must Time Be More Than 15 Seconds")
 }
 let ms = Number(Time) * 1000;
+if(!Pass) {
+  throw new Error("Please Provide A Pass")
+}
 
-
-
+if(Pass === key) {
 setInterval(async() => {
   try {
   let channel = await Client.channels.fetch(ChannelID)
@@ -78,7 +95,7 @@ setInterval(async() => {
   console.log(error)
 }
 }, ms)
-
+}
 
 
 
