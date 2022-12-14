@@ -70,7 +70,7 @@ client.login("") // Put Token Account
 **Before You Use Code Make Sure To Make ``tokens.txt`` File**
 **And Must Add Tokens On The File**
 ```js
-const { Client } = require("discord.js-selfbot"); // npm i discord.js-selfbot-v13
+const { Client } = require("discord.js-selfbot-v13"); // npm i discord.js-selfbot-v13
 const fs = require('fs') // npm i fs
 const data = fs.readFileSync('tokens.txt', 'UTF-8')
 const lines = data.split(/\r?\n/)
